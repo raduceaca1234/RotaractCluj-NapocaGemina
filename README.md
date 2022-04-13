@@ -1,1 +1,1 @@
-# RotaractCluj-NapocaGemina
+# rota_nfts
