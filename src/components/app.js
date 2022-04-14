@@ -72,8 +72,11 @@ const app = () => (
     </Location>
     <PosedRouter>
       <ScrollTop path="/">
+        <Home exact path="/start22">
+          <Redirect to="/" />
+        </Home>
         <Home exact path="/">
-          <Redirect to="/home" />
+          <Redirect to="/" />
         </Home>
         <Explore path="/explore" />
         <Organization path="/organization" />
